@@ -6,7 +6,8 @@ it('Will create a basic gcode program', () => {
   program.do('something');
 
   expect(program.gcode).toEqual(`%
-0test1
-G16
-G21`);
+(test1)
+G17
+G21
+something`);
 });

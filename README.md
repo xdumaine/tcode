@@ -20,5 +20,12 @@ I'd love to get to the point where I could even configure feeds and speeds from 
 
 I'll admit that I'm writing this because I
 
-1. Want to learn Gcode
-2. Don't want to learn Gcode
+1. Want to learn Gcode (actually programming this library will help me to learn gcode)
+2. Don't want to learn Gcode (having this library exist will help me not have to write gcode for basic cuts and such in the future.)
+
+### Limitations (many) and warranties (none)
+
+1. If this message is still here, this is not ready for use. Any GCode exported from this library could damage your materials, tools, or machine. Sofware is provided As-IS with no warranty.
+2. I'm writing this primarily for 3-Axis CNC mills. If there's interest from myself or the community, I'd love to add additional support for 4-axis, 5-axis, 3d printers, or lathes. When any of the afforementioned setups are supported, limitation #1 will be modified or removed.
+3. This is not intended to be used as a post-processor, though in the future, making the use of one could be pretty cool.
+4. Some validation of inputs and boundaries may be supported, but all outputs should be validated with your mill control software prior to running any job.

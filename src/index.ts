@@ -1,4 +1,3 @@
-import fs from 'fs';
 import { writeToFile } from './utils/files';
 import {
   Coordinates,

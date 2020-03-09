@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from 'fs';
 
 export const writeToFile = async (contents: string) => {
   const buffer = new Buffer(contents);
