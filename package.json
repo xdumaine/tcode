@@ -1,0 +1,17 @@
+{
+  "name": "tcode",
+  "version": "0.1.0",
+  "description": "A typescript generator for gcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xander Dumaine <xander.dumaine@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}
