@@ -16,3 +16,19 @@ export const mapCoordinates = (
   }
   return points.join(spacer);
 };
+
+export const warn = (message: string) => {
+  const err = new Error('message');
+  try {
+    const warning = {
+      message: err.message,
+      stack: err.stack
+        .split('\n')
+        .splice(2)
+        .join('\n')
+    };
+    console.warn(warning);
+  } catch (error) {
+    console.warn(err);
+  }
+};

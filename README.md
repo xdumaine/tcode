@@ -14,6 +14,8 @@ Fat fingering codes in a text file are is too easy to do. This library lets you 
 
 Many Gcode systems have convenience methods, but you have to check references, verify output, and run your programs to test them. With this library I intend to implement convenience methods for things like programming circles with a single command, instead of multiple complex commands.
 
+I'd love to get to the point where I could even configure feeds and speeds from a lookup based on materials and machine, possibly by integrating with some known/existing references or calculators like gcode wizard or Provencut.
+
 ### Learning
 
 I'll admit that I'm writing this because I
